@@ -1,11 +1,12 @@
 class Mode {
-    constructor(name, img_src, description, color, lG) {
+    constructor(name, img_src, description, color, lG, link) {
         this.name = name;
         this.img_src = img_src;
         this.description = description;
         this.color = color;
         this.launchGame = lG
         this.state = {};
+        this.link = link;
     }
 
     ModeIcon() {

@@ -5,7 +5,10 @@ function run(modeName) {
     redirect();  // done
     const mode = getModeFromName(modeName);
     mName = modeName;
-    mode.launchGame(mode.state);
+    try{mode.launchGame(mode.state);}
+    catch(error){
+        window.location.href = mode.link
+    }
 
 }
 

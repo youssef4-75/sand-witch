@@ -7,7 +7,6 @@ function startGame() {
 }
 
 
-// TODO
 
 function goToAccount() {
     appearPopUp();
