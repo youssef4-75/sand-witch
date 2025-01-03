@@ -6,7 +6,6 @@ let listMode = [
     new Mode(`Flapping Sandwitch`, `mode_images/flying_burger.jpeg`, `made by Yassine Lamsaaf`, `green`, ``, `https://yassinelamsaaf.github.io/SandwichMaker/flappySandwich/index.html`),
     new Mode(`sandwich sprint`, `mode_images/sandwich_sprint1.jpg`, `made by Mohammed Mehdi Bahri`, `#23C7E0`, ``, `https://itsmhido.github.io/sandwich-sprint/`),
     new Mode(`burger train`, `mode_images/sandwich_train.jpg`, `made by Mohsine Chkirida`, `#F0E68C`, ``, `https://mohssine-chkirida.github.io/Sandwich-Maker/`),
-
 ]
 
 
