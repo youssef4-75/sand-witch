@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/popUp.css">
+    <link rel="stylesheet" href="style/game/main.css">
+    <link rel="stylesheet" href="style/game/nor-mode.css">
+    <link rel="stylesheet" href="style/game/burn_wich.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <header id="game-header">
+            <div id="meta-data">
+                <div id="the-game-timer"></div>
+                <div id="the-max-pointer">
+                    <div id="the-game-pointer" style="--max-points:${state.maxPoint};
+                            --current-points:${state.currPoints}">
+                    </div>
+                </div>
+            </div>
+            <h1 id="the-game-text">Burn the SandWi[T]ch</h1>
+        </header>
+        <div id="game-core">
+            <div id="btw">
+                <div class="first col">
+                    <div class="source"></div>
+                </div>
+                <div class="second col">
+                    <div class="source"></div>
+                    <div class="ingred"></div>
+                </div>
+                <div class="third col">
+                    <div class="source"></div>
+                </div>
+            </div>
+        </div>
+        <div id="game-console">
+            <div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

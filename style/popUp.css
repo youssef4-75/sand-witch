@@ -1,0 +1,93 @@
+#popUp{
+    width: 39vw;
+    background-color: navy;
+    height: 70vh;
+    margin-top: 13vh;
+    border-radius: 17px;
+    transition: 300ms;
+}
+#backButton{
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#backButton:hover{
+    background-color: rgb(16, 16, 36);
+
+}
+
+#popUp header{
+    width: 20px;
+}
+
+.selectBox{
+    width: 200px; /* Adjust width */
+    padding: 10px; /* Add padding for better appearance */
+    font-size: 16px; /* Set font size */
+    color: #333; /* Text color */
+    background-color: #f9f9f9; /* Background color */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    appearance: none; /* Remove default styling */
+    outline: none; /* Remove outline on focus */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  .selectBox:focus {
+    border-color: #007bff; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow effect */
+  }
+  
+
+
+
+#data{
+    display: flex;
+    height: 17vh;
+    width: 100%;
+}
+
+#div-for-img{
+    /* background-color: red;  */
+    width: 16vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#accImg{
+    object-fit: fill;
+    width: 70%;
+    
+}
+
+#name,
+#status{
+    color: white;
+}
+
+#name{
+    margin-top: 20px;
+}
+
+#written-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+}
+
+#descriptif{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+    line-height: 1.6;
+    text-align: justify;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+

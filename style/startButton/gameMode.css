@@ -1,0 +1,56 @@
+.mode{
+background-color: var(--value); /* Blue background */
+color: white; /* White text color */
+border-radius: 10px; /* Rounded corners */
+padding: 20px; /* Inner spacing */
+width: 90%; /* Adjust width */
+text-align: center; /* Center-align content */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+display: flex;
+margin-top: 20px;
+}
+
+.mode img{
+width: 30%; /* Make image responsive */
+max-height: 150px; /* Limit height */
+object-fit: cover; /* Ensure image fits within block */
+border-radius: 5px; /* Slight rounding for image */
+margin-bottom: 15px; /* Space below image */
+margin-right: 13px;
+}
+
+.mode p{
+font-size: 24px; /* Larger font for name */
+font-weight: bold; /* Make text bold */
+margin: 10px 0; /* Add spacing around name */
+}
+
+.mode h3{
+font-size: 16px; /* Standard font size for description */
+line-height: 1.5; /* Improve readability */
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+
+#popUp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#container{
+    max-height: 100%;
+
+}

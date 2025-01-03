@@ -1,0 +1,21 @@
+
+#btw{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    
+    height: 100%;
+}
+
+.col{
+    /* background-color: red; */
+    margin: 0 13px;
+    width: 100px;
+    height: 100%;
+}
+
+.source{
+    background-color: red;
+    height: 4vh;
+    width: 100%;
+}

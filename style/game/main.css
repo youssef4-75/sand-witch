@@ -1,0 +1,22 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #313131;
+    color: rgb(217, 217, 217);
+}
+
+div {
+    text-align: center;
+
+}
+
+
+#main{
+    width: 70vw;
+}
