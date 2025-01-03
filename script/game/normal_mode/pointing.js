@@ -4,7 +4,6 @@ function InitializeRecord(state) {
     const pointer = document.getElementById("the-game-pointer");
     pointer.style.setProperty("--max-points", getRecord())
     __Pointer = state;
-
 }
 
 

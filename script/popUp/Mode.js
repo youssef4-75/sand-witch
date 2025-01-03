@@ -1,5 +1,5 @@
 class Mode {
-    constructor(name, img_src, description, color, lG, link) {
+    constructor(name, img_src, description, color, lG, link, css) {
         this.name = name;
         this.img_src = img_src;
         this.description = description;
@@ -7,11 +7,13 @@ class Mode {
         this.launchGame = lG
         this.state = {};
         this.link = link;
+        this.additionalCSS = css;
     }
 
     ModeIcon() {
+        console.log(this.additionalCSS);
         let res = `
-    <div class="mode" style="--value: ${this.color}" onclick="run('${this.name}')">
+    <div class="mode" style="--value: ${this.color}; ${this.additionalCSS}" onclick="run('${this.name}')">
     <img src="static/${this.img_src}" alt="">
     <div class="text">
         <p>${this.name}</p>

@@ -16,5 +16,5 @@ function goToAccount() {
 }
 
 function showDescription() {
-
+    appearPopUp();
 }

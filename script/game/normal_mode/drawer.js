@@ -44,7 +44,13 @@ function drawCore_NM(state) {
 
 function drawConsole_NM(state) {
     let res = ``;
-    for ([ing_name, color] of Ingredient) {
+    R = [];
+    for (A of Ingredient) {
+        R.push(A)
+    }
+
+    R = shuffleArray(R);
+    for ([ing_name, color] of R) {
         res += `
         <button class="action-btn" value="${ing_name}" 
             onclick="selectIngred('${ing_name}')" 

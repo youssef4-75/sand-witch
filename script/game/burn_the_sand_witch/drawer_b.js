@@ -1,6 +1,6 @@
 
 
-function drawScene_BW(state){
+function drawScene_BW(state) {
     drawHeader_BW(state);
     drawCore_BW();
 
