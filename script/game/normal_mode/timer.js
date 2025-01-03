@@ -1,4 +1,4 @@
-const DELAY = 300;
+const DELAY = 900;
 let interID;
 
 
