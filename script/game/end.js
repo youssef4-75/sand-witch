@@ -2,6 +2,7 @@ let modeName;
 
 
 function EndSession(state, type) {
+    counterProba = 0;
     state.canAdd = false;
     clearInterval(interID);
     notify(type, state.currPoints);

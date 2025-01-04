@@ -2,9 +2,11 @@ const Ingredient = [
     ["Bread", "#f39c12"],
     ["Meat", "#e74c3c"],
     ["Cheese", "#f1c40f"],
-    ["lettuce", "#27ae60"],
+    ["Lettuce", "#27ae60"],
     ["Tomate", "#c22f33"]
 ]
+
+
 
 
 function drawHeader_NM(state) {
@@ -52,7 +54,7 @@ function drawConsole_NM(state) {
     R = shuffleArray(R);
     for ([ing_name, color] of R) {
         res += `
-        <button class="action-btn" value="${ing_name}" 
+        <button class="action-btn" value="${ing_name}"  id="${ing_name}" 
             onclick="selectIngred('${ing_name}')" 
             style="--color:${color}">${ing_name}</button>
 `
@@ -111,10 +113,10 @@ function* genBlocks(state) {
 }
 
 
-function shuffleArray(R){
+function shuffleArray(R) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
-    return array; 
+    return array;
 }

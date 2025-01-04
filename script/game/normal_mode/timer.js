@@ -1,4 +1,4 @@
-const DELAY = 900;
+const DELAY = 400;
 let interID;
 
 
@@ -16,6 +16,10 @@ function resetTime(state) {
 
 function decrease(state) {
     if (state.time <= 0) {
+        if (checkIngredient(SPECIALS[1])) {
+            NextIngredient();
+            return;
+        }
         EndSession(state, `timeEnded`);
     }
     state.time--;
