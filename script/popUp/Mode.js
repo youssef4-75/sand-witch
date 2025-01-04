@@ -11,7 +11,7 @@ class Mode {
     }
 
     ModeIcon() {
-        console.log(this.additionalCSS);
+        
         let res = `
     <div class="mode" style="--value: ${this.color}; ${this.additionalCSS}" onclick="run('${this.name}')">
     <img src="static/${this.img_src}" alt="">

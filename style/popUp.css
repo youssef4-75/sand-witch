@@ -1,5 +1,5 @@
 #popUp{
-    width: 39vw;
+    width: clamp(400px, 39vh, 2000px);
     background-color: navy;
     height: 70vh;
     margin-top: 13vh;
