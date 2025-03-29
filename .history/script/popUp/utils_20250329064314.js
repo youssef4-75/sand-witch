@@ -5,7 +5,8 @@ function setOpacity(n) {
     popUp.style.zIndex = n - 1;
 
 }
- 
+
+=
 function add(block) {
     const container = document.getElementById(`container`);
     container.innerHTML += block;

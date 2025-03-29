@@ -1,19 +1,18 @@
 #popUp{
     width: clamp(400px, 39vh, 2000px);
-    background-color: rgb(231, 174, 17);
+    background-color: navy;
     height: 70vh;
     margin-top: 13vh;
     border-radius: 17px;
     transition: 300ms;
 }
 #backButton{
-    margin-left: 10px;
-    margin-top: 10px;
-    
+    margin-left: 0;
+    margin-top: 0;
 }
 
 #backButton:hover{
-    background-color: rgb(36, 33, 16);
+    background-color: rgb(16, 16, 36);
 
 }
 

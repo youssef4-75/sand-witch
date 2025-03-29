@@ -1,11 +1,17 @@
 
 function setOpacity(n) {
-    const popUp = document.getElementById(`popUp`);
+    const popUp = document.getElementById("popUp");
     popUp.style.opacity = n;
     popUp.style.zIndex = n - 1;
 
 }
- 
+
+function includeText(text){
+    const container = document.getElementById(container`);
+    container.innerHTML += text;
+}
+
+
 function add(block) {
     const container = document.getElementById(`container`);
     container.innerHTML += block;

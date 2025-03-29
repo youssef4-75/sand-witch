@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="static/icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/menu.css">
+    <!-- <link rel="stylesheet" href="style/text.css"> -->
+    <link rel="stylesheet" href="style/popUp.css">
+    <link rel="stylesheet" href="style/startButton/gameMode.css">
+    <link rel="stylesheet" href="style/game/main.css">
+    <link rel="stylesheet" href="style/game/nor-mode.css">
+    <link rel="stylesheet" href="style/end-page.css">
+</head>
+
+<body>
+    <div class="menu">
+        <img src="static/background.jpeg" alt="backgound" class="bg">
+        <div id="all">
+            <h1 style="color: wheat;">Sandwich Arena</h1>
+            <div id="image">
+                <img src="static/chefBurger.jpg" alt="an image to be ploted here to describe the game">
+            </div>
+            <div id="buttons">
+                <button id="start-game" onclick="startGame()">Start</button>
+                <button id="account" onclick="goToAccount()">Account</button>
+                <button id="description" onclick="showDescription()">Description</button>
+            </div>
+            <div id="copyright">Copyright Aseds INE1 2024/2025</div>
+            <div class="_" id="popUp">
+                <header>
+                    <button id="backButton" onclick="back()">
+                        X
+                    </button>
+                </header>
+
+                <div id="popUp-container">
+                    <div id="container">
+
+                    </div>
+                </div>
+            </div>
+            <footer>
+            </footer>
+        </div>
+
+    </div>
+    <div class="_ page" id="game-page"></div>
+    <div id="popUps" class="page popup-overlay">
+        <div class="popup">
+            <h2 id="main-text">Game Over</h2>
+            <p id="non-main-text">You won! 🎉</p>
+
+            <div>
+                <h4 id="my-points">
+                    point: 13
+                </h4>
+                <h4 id="the-best">
+                    record: 24
+                </h4>
+            </div>
+            <button class="restart" onclick="restartGame()">Restart</button>
+            <button class="home" onclick="location.reload(false)">Go Home</button>
+        </div>
+    </div>
+
+
+    <script src="script/main.js"></script>
+    <script src="script/game/normal_mode/sandwich.js"></script>
+    <script src="script/game/normal_mode/pointing.js"></script>
+    <script src="script/game/normal_mode/normal_mode.js"></script>
+    <script src="script/game/normal_mode/drawer.js"></script>
+    <script src="script/game/normal_mode/state_control.js"></script>
+    <script src="script/game/end.js"></script>
+    <script src="script/game/normal_mode/timer.js"></script>
+    <script src="script/game/burn_the_sand_witch/btsw_mode.js"></script>
+    <script src="script/game/burn_the_sand_witch/drawer_b.js"></script>
+    <script src="script/game/burn_the_sand_witch/state_control_b.js"></script>
+
+    <script src="script/popUp/utils.js"></script>
+    <script src="script/popUp/Mode.js"></script>
+    <script src="script/popUp/listMode.js"></script>
+    <script src="script/popUp/mainWin.js"></script>
+    <script src="script/game/launch.js"></script>
+    <script src="script/utilities.js"></script>
+</body>
+
+</html>

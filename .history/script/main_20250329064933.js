@@ -18,7 +18,7 @@ function goToAccount() {
 function showDescription() {
     clear();
     appearPopUp();
-    add(`<h1 style="font-size: 17px; color: white; text-align: center; margin: 20px;">
+    add(`<h1 style="font-size: 2.5rem; color: white; text-align: center; margin-top: 20px;">
         The history of sandwiches traces back to 18th-century
         England, attributed to John Montagu, the fourth Earl 
         of Sandwich, who is said to have invented it to avoid

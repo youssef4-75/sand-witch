@@ -1,5 +1,5 @@
-function appearPopUp() {
-    setOpacity(1);
+function appearPopUp(text) {
+    setOpacity(1)
 }
 
 function back() {

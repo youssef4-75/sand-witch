@@ -1,5 +1,5 @@
 function appearPopUp() {
-    setOpacity(1);
+    setOpacity(1)
 }
 
 function back() {
